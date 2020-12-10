@@ -20,7 +20,7 @@ all examples here we assume you want to compile the sample
 Using `pkg-config` in CMake is fairly easy:
 
 ```
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.10)
 
 cmake_policy(SET CMP0048 NEW)
 project(my_gtest_pkgconfig VERSION 0.0.1 LANGUAGES CXX)
