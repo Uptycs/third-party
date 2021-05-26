@@ -250,7 +250,7 @@ class RangeGenerator : public ParamGeneratorInterface<T> {
           step_(other.step_) {}
 
     // No implementation - assignment is unsupported.
-    void operator=(const Iterator& other);
+    void operator=(const Iterator& other) = delete;
 
     const ParamGeneratorInterface<T>* const base_;
     T value_;
