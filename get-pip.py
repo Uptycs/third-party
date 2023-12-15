@@ -151,7 +151,7 @@ def bootstrap(tmpdir=None):
     if implicit_pip:
         args += ["pip<21.0"]
     if implicit_setuptools:
-        args += ["setuptools<45"]
+        args += ["setuptools"]
     if implicit_wheel:
         args += ["wheel"]
 
